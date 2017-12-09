@@ -11,8 +11,9 @@ class App extends Component {
           <h2>Examples</h2>
         </header>
         <pre>{`<Guitar chord="A" />`}</pre>
-        <Guitar chord="A" />
+        <Guitar chord="A" fill={'#333'} stroke={'#FFF'} height={'30em'} />
         <Guitar chord="A" quality="MIN" />
+        <Guitar chord="C#" quality="MIN" />
       </div>
     )
   }
