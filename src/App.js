@@ -30,11 +30,13 @@ class App extends Component {
           ].map(c => (
             <Fragment key={c}>
               <div className={'chord'}>
-                <pre>{`<GuitarChord chord={'${c}'} />`}</pre>
+                <div className={'code'}>{`<GuitarChord chord={'${c}'} />`}</div>
                 <GuitarChord chord={c} />
               </div>
               <div className={'chord'}>
-                <pre>{`<GuitarChord chord={'${c}'} quality={'MIN'} />`}</pre>
+                <div
+                  className={'code'}
+                >{`<GuitarChord chord={'${c}'} quality={'MIN'} />`}</div>
                 <GuitarChord chord={c} quality={'MIN'} />
               </div>
             </Fragment>
