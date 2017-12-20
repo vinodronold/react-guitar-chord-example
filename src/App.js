@@ -36,8 +36,20 @@ class App extends Component {
               <div className={'chord'}>
                 <div
                   className={'code'}
+                >{`<GuitarChord alternate chord={'${c}'} />`}</div>
+                <GuitarChord alternate chord={c} />
+              </div>
+              <div className={'chord'}>
+                <div
+                  className={'code'}
                 >{`<GuitarChord chord={'${c}'} quality={'MIN'} />`}</div>
                 <GuitarChord chord={c} quality={'MIN'} />
+              </div>
+              <div className={'chord'}>
+                <div
+                  className={'code'}
+                >{`<GuitarChord alternate chord={'${c}'} quality={'MIN'} />`}</div>
+                <GuitarChord alternate chord={c} quality={'MIN'} />
               </div>
             </Fragment>
           ))}
