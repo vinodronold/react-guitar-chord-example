@@ -5134,6 +5134,10 @@ react-error-overlay@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
 
+react-guitar-chord@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-guitar-chord/-/react-guitar-chord-1.1.0.tgz#47f18988ea87641dc43b4b1a9a282ea51485a55d"
+
 react-scripts@1.0.17:
   version "1.0.17"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-1.0.17.tgz#c30029123b561a060227af4d7797d50a222d3fbf"
